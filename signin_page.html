@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="signin_page.css">
+</head>
+<body>       
+    <div class="container">
+        <h2>Create an account</h2>
+        <p>Enter your email to sign up for this app</p>
+        <form method="post" action="http://localhost:3000/register">
+            <input type="email" name="email" placeholder="email@gmail.com" required>
+            <input type="password" name="password" placeholder="********" required>
+            <button class="button sign-up-button" type="submit">Sign up</button>
+        </form>
+        <p>or continue with</p>
+        <a href="login.html"><button class="button google-button">login</button></a>
+        <div class="terms">
+            <p>By clicking continue, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
